@@ -5,15 +5,9 @@ done;
 unset file;
 
 export ZSH=/Users/nick/.oh-my-zsh
-ZSH_THEME="spaceship"
+ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
-source "/Users/nick/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
-
-# Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
