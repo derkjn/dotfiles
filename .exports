@@ -1,0 +1,6 @@
+export PATH=$PATH:~/.composer/vendor/bin
+export PATH=$PATH:./node_modules/.bin
+export PATH="$(brew --prefix homebrew/core/php@7.2)/bin:$PATH"
+
+export NVM_DIR="/Users/nick/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

@@ -1,0 +1,13 @@
+alias weather="curl -f http://wttr.in/canberra"
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias op="open -a PhpStorm ."
+alias vim="nvim"
+alias vi="nvim"
+alias nm="find /Users/nick/Sites -maxdepth 6 -type d -name 'node_modules'"
+alias startwm="brew services start chunkwm && brew services start skhd"
+alias stopwm="brew services stop chunkwm && brew services stop skhd"
+

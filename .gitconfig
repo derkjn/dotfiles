@@ -1,0 +1,2 @@
+[includeif "gitdir:~/Sites/ignite/"]
+	path = ~/Sites/ignite/.gitconfig
